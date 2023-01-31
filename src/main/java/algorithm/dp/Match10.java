@@ -1,7 +1,9 @@
-public class Match {
+package algorithm.dp;
+
+public class Match10 {
     public static void main(String[] args){
-        Match match = new Match();
-        System.out.println(match.isMatch("abc","a.c"));
+        Match10 match10 = new Match10();
+        System.out.println(match10.isMatch("abc","a.c"));
     }
 
     public boolean isMatch(String s, String p) {
